@@ -4,6 +4,9 @@
 }
 
 /**NAVBAR*/
+nav{
+    background-color: white;
+}
 .navbar-wrapper{
     margin: 20px;
     display: flex;
@@ -20,4 +23,40 @@ ul{
 li{
     padding: 0 5px;
     display: inline;
+}
+
+/*MAIN CONTENT*/
+main{
+    background-color: #DCDCDC;
+}
+
+.part-one{
+    display: grid;
+    grid-template-columns: 75% 25%;
+    padding: 10px;
+    background-color: white;
+}
+
+.part-one-text{
+    letter-spacing: 2;
+    color: black;
+    margin-top: 150px;
+    margin-left: -50px;
+}
+
+#part-one-more{
+    margin-top: 5px;
+}
+
+.part-one-thumbnail{
+    position: absolute;
+    padding: 30px;
+    background-color: white;
+    top: 400px;
+    right: 80px;
+}
+
+.part-one-thumbnail img{
+    height: 300px;
+    width: 400px;
 }
