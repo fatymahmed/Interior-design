@@ -56,6 +56,7 @@ main{
     background-color: white;
     top: 350px;
     right: 120px;
+    border-radius: 5px;
 }
 
 .part-one-thumbnail img{
@@ -73,7 +74,8 @@ main{
     margin-top: 30px;
     margin-left: 50px;
     width: 650px;
-    height: 350px;   
+    height: 350px;
+    border-radius: 5px;
 }
 
 .part-two-thumbnail{
@@ -85,12 +87,13 @@ main{
     padding: 50px;
     font-weight: light;
     line-height: 1.3;
+    border-radius: 5px;
 }
 a{
     color: black;
 }
 
-.services{
+.services, .blogs{
     margin-top: 50px;
     margin-left: 40px;
     text-align: center;
@@ -112,4 +115,33 @@ a{
     padding: 5px;
     height: 250px;
     width: 250px;
+}
+
+.blog-container{
+    display: flex;
+    justify-content: space-between;
+}
+.blogs h2{
+    padding: 5px;
+}
+
+.blogs p{
+    padding-bottom: 10px;
+}
+.blog img{
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    height: 240px;
+    width: 350px;
+}
+
+.blog a{
+    text-decoration: none;
+    display: block;
+    width: 250px;
+    text-align: center;
+}
+.blog a:hover{
+    color: grey;
 }
