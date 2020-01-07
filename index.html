@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>Interior Design</title>
     <link rel="stylesheet" href="/style.css">
 </head>
@@ -22,17 +23,19 @@
         </div>
     </nav>
     <main>
-        <section class="part-one" id="about-us">
-            <div>
-                <img src="assets/image2.jpeg" alt="">
-            </div>
-            <div class="part-one-text">
-                <h4>Modern</h4>
-                <h2>Creative Design</h2>
-                <p id="part-one-more">We combine exterior and interior services and often provide them as a single solution.</p>
-            </div>
-            <div class="part-one-thumbnail">
-                <img src="assets/image3.jpeg" alt="">
+        <section class="row" id="about-us">
+            <div class="part-one col-sm-12 col-12-md col-12">
+                <div>
+                        <img src="assets/image2.jpeg" alt="">
+                    </div>
+                    <div class="part-one-text">
+                        <h4>Modern</h4>
+                        <h2>Creative Design</h2>
+                        <p id="part-one-more">We combine exterior and interior services and often provide them as a single solution.</p>
+                    </div>
+                    <div class="part-one-thumbnail">
+                        <img src="assets/image3.jpeg" alt="">
+                    </div>
             </div>
         </section>
         <section class="part-two">
@@ -43,22 +46,32 @@
                 <h5><a href="#">Read More</a></h5>
             </div>
         </section>
-        <section class="services" id="services">
+        <section class="small">
+               <div class="">
+                    <img src="assets/image4.jpeg" alt="">
+               </div>
+               <div class="part-two-thumbnail-small">
+                    <h3>Our interior are designed to last a lifetime</h3>
+                    <p>Since 1995, we have been providing flooring servies and customer service for our clients</p>
+                    <h5><a href="#">Read More</a></h5>
+                </div>
+        </section>
+        <section class="services container-fluid" id="services">
             <h2>Services</h2>
-            <div class="service-container">
-                <div class="service">
+            <div class="service-container row">
+                <div class="service col-lg-3 col-md-4 col-sm-6">
                     <img src="assets/image5.jpeg" alt="">
                     <p>Plans of projects</p>
                 </div>
-                <div class="service">
+                <div class="service col-lg-3 col-md-4 col-sm-6">
                     <img src="assets/image6.jpeg" alt="">
                     <p>Interior</p>
                 </div>
-                <div class="service">   
+                <div class="service col-lg-3 col-md-4 col-sm-6">   
                     <img src="assets/image7.jpeg" alt="">
                     <p>Exterior</p>
                 </div>
-                <div class="service">
+                <div class="service col-lg-3 col-md-4 col-sm-6">
                     <img src="assets/image8.jpeg" alt="">
                     <p>Architecture</p>
                 </div>
@@ -67,34 +80,36 @@
         <section class="blogs" id="blogs">
             <h2>Blog</h2>
             <p>We have collected a few blogs that we believe would be beneficial to our clients</p>
-            <div class="blog-container">
-                    <div class="blog">
-                        <img src="assets/blog1.jpeg" alt="">
-                        <a href="https://www.dwell.com/article/interior-design-trends-2020-6416f6c9"> Here Are the 10 Interior Design Trends That Will Rule 2020</a>
-                    </div>
-                    <div class="blog">
-                        <img src="assets/blog2.jpeg" alt="">
-                       <a href="https://www.dwell.com/article/how-a-smart-interior-design-saved-this-house-596e994f">How a Smart Interior Design Saved This House</a>
-                    </div>
-                    <div class="blog">   
-                        <img src="assets/blog3.jpeg" alt="">
-                        <a href="https://www.dwell.com/article/autumnwinter-interior-design-inspiration-466399a2">Autumn/Winter Interior Design Inspiration</a>
-                    </div>
+            <div class="blog-container container-fluid">
+                <div class="row">
+                    <div class="blog col-lg-4 col-md-6 col-sm-12">
+                            <img src="assets/blog1.jpeg" alt="">
+                            <a href="https://www.dwell.com/article/interior-design-trends-2020-6416f6c9"> Here Are the 10 Interior Design Trends That Will Rule 2020</a>
+                        </div>
+                        <div class="blog col-lg-4 col-md-6 col-sm-12">
+                            <img src="assets/blog2.jpeg" alt="">
+                            <a href="https://www.dwell.com/article/how-a-smart-interior-design-saved-this-house-596e994f">How a Smart Interior Design Saved This House</a>
+                        </div>
+                        <div class="blog col-lg-4 col-md-6 col-sm-12">   
+                            <img src="assets/blog3.jpeg" alt="">
+                            <a href="https://www.dwell.com/article/autumnwinter-interior-design-inspiration-466399a2">Autumn/Winter Interior Design Inspiration</a>
+                        </div>
                 </div>
+            </div>
         </section>
     </main>
     <footer>
-        <div>
-            <div>
-                <ul>
+        <div class="container">
+            <div class="row">
+                <ul class="col-lg-6 col-md-6 col-sm-12">
                     <li><a href="/">Home</a></li>
                     <li><a href="#about-us">About Us</a></li>
                     <li><a href="#services">Services</a></li>
                     <li><a href="#blogs">Blogs</a></li></li>
                 </ul>
+                <div class="col-lg-6 col-md-6 col-sm-12 contact">
+                    <p>Contact us at interiordesigning@qwe.rty</p>
                 </div>
-            <div>
-                <p>Contact us at interiordesigning@qwe.rty</p>
             </div>
         </div>
         <hr>
