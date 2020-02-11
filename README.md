@@ -31,9 +31,8 @@ To get a local copy up and running follow these simple example steps.
 
 - Github: [@githubhandle](https://github.com/fatymahmed)
 - Twitter: [@twitterhandle](https://twitter.com/fatymahmed)
-- Linkedin: [linkedin](https://www.linkedin.com/in/fatima-ahmed-46b01298/)
-
-
+- Linkedin: [linkedin](https://www.linkedin.com/in/fatimahmed/)
+- Contact me at fatima.ahmed.muhsin@gmail.com
 
 ## Acknowledgments
 - The design of the website was inspired by [Aminul Haque Chowdhruy](https://dribbble.com/shots/9239203-Interior-Design-Landing-Page-Concept/attachments/1282846?mode=media)
