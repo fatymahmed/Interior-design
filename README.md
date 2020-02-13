@@ -37,4 +37,4 @@ To get a local copy up and running follow these simple example steps.
 ## Acknowledgments
 - The design of the website was inspired by [Aminul Haque Chowdhruy](https://dribbble.com/shots/9239203-Interior-Design-Landing-Page-Concept/attachments/1282846?mode=media)
 
-- Photos by Dane Deaner, Sidekix Media, Helloquence,Lance Anderson and Naomi Hébert from [unsplash](https://unsplash.com/)
+- Photos by Dane Deaner, Sidekix Media, Helloquence, Lance Anderson and Naomi Hébert from [unsplash](https://unsplash.com/)
